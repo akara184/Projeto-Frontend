@@ -1,0 +1,149 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Background*/
+body {
+    background-image: url("/imgs/otherbg3.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* INICIO DO MEU NAV*/
+
+#menu {
+    list-style: none;
+    padding: 10px;
+    background-color: #11101b;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.telecall-branco{
+    width: 170px;
+    float: left;
+}
+
+
+#menu li {
+    display: inline;
+    padding: 30px;
+
+}
+
+#menu a {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background .2s;
+
+}
+
+#menu a:hover {
+    color: #11101b;
+    background-color: rgb(231, 230, 230);
+    border-radius: 50px;
+}
+
+.navcadastro:hover {
+    color: #11101b;
+    background-color: rgb(231, 230, 230);
+    border-radius: 50px;
+}
+.navcadastro{
+    margin: auto 8px;
+    color: white;
+    float: right;
+    background-color: #c51d1d;
+
+}
+.navlogin{
+    color: white;
+    float:right;
+    background-color: #c51d1d;
+
+}
+
+
+/*FINAL DO MEU NAV*/
+
+/*Logo principal*/
+#idlogo {
+    text-align: center;
+
+}
+
+.logo {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+/*Inicio da minha FORM*/
+fieldset {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 700px;
+    border: 4px solid #363636;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Todos input, menos o date*/
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+select{
+    cursor: pointer;
+}
+input[type="date"]{
+   
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor:pointer;
+}
+
+form input:focus {
+    background-color: rgb(235, 229, 229);
+}
+/*Estilização do submit*/
+form input[type=submit] {
+    background-color: #c51d1d;
+    display: flex;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 80px;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+input[type="submit"]:hover {
+    background-color: #9b1c1c;
+  }
+
+/*FINAL DA*/

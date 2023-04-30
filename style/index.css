@@ -95,7 +95,7 @@ body {
 
 #planos h1 {
     position: relative;
-    top: -130px;
+    bottom: 85px;
     color: rgb(0, 59, 113);
     font-size: 40px;
     margin: 0;
@@ -151,13 +151,29 @@ body {
     background-color: #1e13af;
 
 }
+/*PLANOS FINAL*/
 
-#sobre-nos {
+
+#quem-somos {
     margin: 200px auto;
+    text-align: center;
 }
 
+#quem-somos h1{
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(0, 59, 113);
+    font-size: 35px;
+}
+#quem-somos pre{
+    padding: 30px;
+    font-size: 29px;
+    font-weight: 600;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.7);
+}
 
-
-
-
+#sobre-alinhado{
+    display: inline-block;
+    align-items: center;
+}
 /*SEÇÃO DE PLANOS FINAL*/

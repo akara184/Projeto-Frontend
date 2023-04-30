@@ -90,11 +90,10 @@ body {
     margin-top: 130px;
     display: flex;
     align-items: center;
-    width: 100;
-    
+    flex-wrap: wrap;
 }
 
-#planos h1{
+#planos h1 {
     position: relative;
     top: -130px;
     color: rgb(0, 59, 113);
@@ -152,4 +151,13 @@ body {
     background-color: #1e13af;
 
 }
+
+#sobre-nos {
+    margin: 200px auto;
+}
+
+
+
+
+
 /*SEÇÃO DE PLANOS FINAL*/

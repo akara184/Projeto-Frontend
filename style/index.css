@@ -79,22 +79,29 @@ body {
 }
 
 .img-frontal {
-    position: relative;
+    position: static;
     width: 100%;
     height: 100%;
 }
 
-section {
+/*SEÇÃO DE PLANOS INICIO*/
+
+#planos {
     margin-top: 130px;
     display: flex;
-    align-items:center;
+    align-items: center;
+    width: 100;
+    
 }
 
-section h1 {
-    margin-bottom: 200px;
+#planos h1{
+    position: relative;
+    top: -130px;
     color: rgb(0, 59, 113);
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
     text-align: center;
-    font-size: 65px;
 }
 
 .mega100p {
@@ -114,7 +121,7 @@ section h1 {
 
 }
 
-section a {
+#planos a {
     text-decoration: none;
     color: white;
 }
@@ -139,7 +146,10 @@ section a {
 
 }
 
-.mega100p:hover, .mega200p:hover, .mega300p:hover  {
+.mega100p:hover,
+.mega200p:hover,
+.mega300p:hover {
     background-color: #1e13af;
 
 }
+/*SEÇÃO DE PLANOS FINAL*/

@@ -177,3 +177,20 @@ body {
     align-items: center;
 }
 /*SEÇÃO DE PLANOS FINAL*/
+/*SECÃO DE CONTATO*/
+#contato{
+    background-color: #31353b;
+}
+#contato .logo-branco{
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#contato .logo-link{
+    margin-right: 25px;
+    width: 40px;
+    float: right;
+    margin-top: 15px;
+}
+

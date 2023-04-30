@@ -151,6 +151,7 @@ body {
     background-color: #1e13af;
 
 }
+
 /*PLANOS FINAL*/
 
 
@@ -159,38 +160,57 @@ body {
     text-align: center;
 }
 
-#quem-somos h1{
+#quem-somos h1 {
     margin-bottom: 25px;
     text-align: center;
     color: rgb(0, 59, 113);
     font-size: 35px;
 }
-#quem-somos pre{
+
+#quem-somos pre {
     padding: 30px;
     font-size: 29px;
     font-weight: 600;
     box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 60px rgba(0, 0, 0, 0.3);
 }
 
-#sobre-alinhado{
+#sobre-alinhado {
     display: inline-block;
     align-items: center;
 }
+
 /*SEÇÃO DE PLANOS FINAL*/
 /*SECÃO DE CONTATO*/
-#contato{
+#contato {
     background-color: #31353b;
 }
-#contato .logo-branco{
+
+#contato .logo-branco {
     width: 200px;
     margin-top: 15px;
     margin-left: 15px;
     margin-bottom: 5px;
 }
-#contato .logo-link{
+
+#contato .logo-link {
     margin-right: 25px;
     width: 40px;
     float: right;
     margin-top: 15px;
+}
+#contato h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
+}
+#contato pre {
+    display: inline-block; 
+    width: 40%;
+    margin-top: 40px;
+    color:white;
+    font-size: 30px; 
 }
 

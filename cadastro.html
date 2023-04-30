@@ -20,7 +20,7 @@
             <li> <a href="index.html">Home</a></li>
             <li> <a href="index.html#planos">Planos</a></li>
             <li> <a href="index.html#quem-somos">Quem Somos</a></li>
-            <li> <a href="#">Contato</a></li>
+            <li> <a href="index.html#contato">Contato</a></li>
             <li> <a href="login.html" class="navlogin">Entrar</a></li>
             <li> <a href="cadastro.html" class="navcadastro">Cadastro</a></li>
         </ul>
@@ -63,14 +63,14 @@
             </div>
             <div class="inputlogin">
                 <label for="login">Login: *</label>
-                <input type="text" id="login" name="idlogin" pattern="[A-Za-z]{6}"
+                <input type="text" id="login" name="idlogin" pattern="[A-Za-z]{6}" placeholder="O login deve ter exatamente 6 letras."
                     title="O login deve ter exatamente 6 letras." required>
             </div>
             <div class="senha">
                 <label for="senha">Senha: *</label>
-                <input type="password" name="senha" pattern="^[a-zA-Z]{8,}$" required>
+                <input type="password" name="senha" pattern="^[a-zA-Z]{8,}$" required placeholder="A Senha de ter exatamente 8 letras">
                 <label for="senhaConfirmada">Confirme a senha: *</label>
-                <input type="password" name="senhaConfirmada" pattern=" ^[a-zA-Z]{8,}$" required>
+                <input type="password" name="senhaConfirmada" pattern=" ^[a-zA-Z]{8,}$" required placeholder="A Senha de ter exatamente 8 letras">
             </div>
             <div>
                 <input type="submit" value="Confirmar">

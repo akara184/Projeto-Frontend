@@ -1,3 +1,4 @@
+/* EDIÇÃO GLOBAL*/
 * {
     margin: 0 auto;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/*BACKGROUND*/
 body {
     background-image: url("/imgs/otherbg3.jpeg");
     background-size: cover;
@@ -13,6 +15,9 @@ body {
     background-attachment: fixed;
 }
 
+/*INICIO DO NAV*/
+
+/*A NAV ACOMPANHA*/
 #menu {
     list-style: none;
     padding: 10px;
@@ -57,7 +62,7 @@ body {
     border-radius: 50px;
 }
 
-.navcadastro {
+#menu .navcadastro {
     margin: auto 8px;
     color: rgb(255, 255, 255);
     float: right;
@@ -65,17 +70,20 @@ body {
 
 }
 
-.navcadastro:hover {
-    color: #11101b;
-    background-color: rgb(231, 230, 230);
+#menu .navcadastro:hover {
+    background-color: #9b1c1c;
     border-radius: 50px;
 }
 
-.navlogin {
+#menu .navlogin {
     color: white;
     float: right;
     background-color: #c51d1d;
+}
 
+#menu .navlogin:hover {
+    background-color: #9b1c1c;
+    border-radius: 50px;
 }
 
 .img-frontal {
@@ -83,6 +91,9 @@ body {
     width: 100%;
     height: 100%;
 }
+
+/*FINAL DO MEU NAV*/
+
 
 /*SEÇÃO DE PLANOS INICIO*/
 
@@ -103,29 +114,11 @@ body {
     text-align: center;
 }
 
-.mega100p {
-    position: relative;
-    top: -80px;
-    border: 2px solid black;
-    border-radius: 30px;
-    text-align: center;
-    width: 150px;
-    height: 50px;
-    line-height: 45px;
-    font-size: 20px;
-    font-weight: bold;
-    background-color: rgb(0, 59, 113);
-    color: #fff;
-    transition: background-color 0.4s;
-
-}
-
 #planos a {
     text-decoration: none;
     color: white;
 }
-
-
+/*ESTIILIZAÇÃO DO ASSINE JÁ*/
 .mega100p,
 .mega200p,
 .mega300p {
@@ -154,7 +147,7 @@ body {
 
 /*PLANOS FINAL*/
 
-
+/* INICIO DA ESTILIZAÇÃO DA SEÇÃO QUEM SOMOS*/
 #quem-somos {
     margin: 200px auto;
     text-align: center;
@@ -180,7 +173,9 @@ body {
     align-items: center;
 }
 
-/*SEÇÃO DE PLANOS FINAL*/
+/* FINAL DA ESTILIZAÇÃO DA SEÇÃO QUEM SOMOS*/
+
+
 /*SECÃO DE CONTATO*/
 #contato {
     background-color: #31353b;
@@ -199,6 +194,7 @@ body {
     float: right;
     margin-top: 15px;
 }
+
 #contato h1 {
     color: white;
     text-align: center;
@@ -206,11 +202,13 @@ body {
     font-weight: 600;
     text-shadow: 2px 2px 30px rgba(0, 0, 0, 0.4);
 }
+
 #contato pre {
-    display: inline-block; 
+    display: inline-block;
     width: 40%;
     margin-top: 40px;
-    color:white;
-    font-size: 30px; 
+    color: white;
+    font-size: 30px;
 }
 
+/*FINAL DA SEÇÃO DE CONTATOS*/

@@ -15,7 +15,7 @@
     <nav id="menu">
         <ul>
             <li>
-                <img class="telecall-logo" src="imgs/telecall-logo-removebg-preview.png">
+                <img class="telecall-logo" src="imgs/telecall-logo-removebg-preview.png" alt="Logo">
             </li>
             <li> <a href="index.html">Home</a></li>
             <li> <a href="index.html#planos">Planos</a></li>
@@ -26,13 +26,13 @@
         </ul>
     </nav>
     <div id="idlogo">
-            <img class="logo" src="imgs/telecall-logo-removebg-preview.png" alt="Logo">
+        <img class="logo" src="imgs/telecall-logo-removebg-preview.png" alt="Logo">
     </div>
 
     <form action="POST">
         <fieldset>
             <div class="inputnome">
-                <label for="Nome:">Nome: *</label>
+                <label for="Nome:">Nome Completo: *</label>
                 <input type="text" name="nome" id="idnome" minlength="15" maxlength="60" placeholder="Digite seu nome"
                     required>
             </div>
@@ -63,14 +63,17 @@
             </div>
             <div class="inputlogin">
                 <label for="login">Login: *</label>
-                <input type="text" id="login" name="idlogin" pattern="[A-Za-z]{6}" placeholder="O login deve ter exatamente 6 letras."
-                    title="O login deve ter exatamente 6 letras." required>
+                <input type="text" id="login" name="idlogin" pattern="[A-Za-z]{6}"
+                    placeholder="O login deve ter exatamente 6 letras." title="O login deve ter exatamente 6 letras."
+                    required>
             </div>
             <div class="senha">
                 <label for="senha">Senha: *</label>
-                <input type="password" name="senha" pattern="^[a-zA-Z]{8,}$" required placeholder="A Senha de ter exatamente 8 letras">
+                <input type="password" name="senha" pattern="^[a-zA-Z]{8,}$" required
+                    placeholder="A Senha deve ter exatamente 8 letras">
                 <label for="senhaConfirmada">Confirme a senha: *</label>
-                <input type="password" name="senhaConfirmada" pattern=" ^[a-zA-Z]{8,}$" required placeholder="A Senha de ter exatamente 8 letras">
+                <input type="password" name="senhaConfirmada" pattern=" ^[a-zA-Z]{8,}$" required
+                    placeholder="A Senha deve ter exatamente 8 letras">
             </div>
             <div>
                 <input type="submit" value="Confirmar">

@@ -1,3 +1,5 @@
+
+/*EDIÇÃO GLOBAL */
 * {
     margin: 0 auto;
     padding: 0;
@@ -5,7 +7,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
-/* Background*/
+/*BACKGROUND*/
 body {
     background-image: url("/imgs/otherbg3.jpeg");
     background-size: cover;
@@ -55,30 +57,34 @@ body {
     border-radius: 50px
 }
 
-.navcadastro:hover {
-    margin: auto 8px;
-    color: rgb(255, 255, 255);
-    float: right;
-    background-color: #c51d1d;
-    
-}
-.navcadastro{
+#menu .navcadastro{
     margin: auto 8px;
     color: white;
     float: right;
     background-color: #c51d1d;
-
+    
 }
-.navlogin{
+#menu .navcadastro:hover {
+    color: rgb(255, 255, 255);
+    background-color: #9b1c1c;
+    
+}
+
+#menu .navlogin{
     color: white;
     float:right;
     background-color: #c51d1d;
 
 }
+#menu .navlogin:hover{
+    color: white;
+    background-color: #9b1c1c;
+    
+}
 
 /*FINAL DO MEU NAV*/
 
-/*LOGO PRINCIPAL*/
+/*LOGO NO MEIO DA TELA*/
 #idlogo {
     text-align: center;
 
@@ -89,7 +95,7 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
 }
-/*FIM DA LOGO PRINCIPAL*/
+/*FIM DA LOGO DO MEIO DA TELA*/
 
 /*INICIO DA FORM*/
 

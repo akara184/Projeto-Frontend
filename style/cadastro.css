@@ -1,3 +1,4 @@
+/*EDIÇÃO GLOBAL*/
 * {
     margin: 0 auto;
     padding: 0;
@@ -5,7 +6,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-/* Background*/
+/*BACKGROUND*/
 body {
     background-image: url("/imgs/otherbg3.jpeg");
     background-size: cover;
@@ -24,12 +25,13 @@ body {
     margin: 0 auto;
     text-align: center;
 }
-.telecall-logo{
+
+.telecall-logo {
     position: fixed;
     width: 200px;
     left: 10px;
     top: 5px;
-    
+
 }
 
 
@@ -55,29 +57,36 @@ body {
     border-radius: 50px;
 }
 
-.navcadastro{
+#menu .navcadastro {
     margin: auto 8px;
-    color: rgb(255, 255, 255);
+    color: white;
     float: right;
     background-color: #c51d1d;
 
 }
-.navcadastro:hover {
-    color: #11101b;
-    background-color: rgb(231, 230, 230);
-    border-radius: 50px;
+
+#menu .navcadastro:hover {
+    color: rgb(255, 255, 255);
+    background-color: #9b1c1c;
+
 }
-.navlogin{
+
+#menu .navlogin {
     color: white;
-    float:right;
+    float: right;
     background-color: #c51d1d;
 
 }
 
+#menu .navlogin:hover {
+    color: white;
+    background-color: #9b1c1c;
+
+}
 
 /*FINAL DO MEU NAV*/
 
-/*Logo principal*/
+/*LOGO NO MEIO DA TELA*/
 #idlogo {
     text-align: center;
 
@@ -90,8 +99,9 @@ body {
 
 }
 
+/*FIM DA LOGO DO MEIO DA TELA*/
 
-/*Inicio da minha FORM*/
+/*INICIO DA FORM*/
 fieldset {
     margin: 0 auto;
     padding: 30px;
@@ -101,37 +111,39 @@ fieldset {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-label{
+label {
     display: block;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-/* Todos input, menos o date*/
+/* TODOS INPUT, MENOS DATE*/
 input[type="text"],
 input[type="password"],
 input[type="tel"],
 select {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid black;
-  background-color: #ffffff;
-  margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    margin-bottom: 20px;
 }
-select{
+
+select {
     cursor: pointer;
 }
-input[type="date"]{
-   
+
+input[type="date"] {
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 form input:focus {
     background-color: rgb(235, 229, 229);
 }
+
 /*Estilização do submit*/
 form input[type=submit] {
     background-color: #c51d1d;
@@ -147,6 +159,6 @@ form input[type=submit] {
 
 input[type="submit"]:hover {
     background-color: #9b1c1c;
-  }
+}
 
-/*FINAL DA*/
+/*FINAL DA FORM*/
